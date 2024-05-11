@@ -1,0 +1,155 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    padding-top: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+}
+
+.encomendas {
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.logo {
+    margin-left: 13%;
+    height: 22%;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cabecalho {
+    background-color: rgb(241, 241, 241);
+}
+
+li {
+    display: inline-block;
+
+    padding-top: 2%;
+    margin-left: 15%;
+}
+
+.nav li {
+    display: block;
+    margin: 0 0 0 50px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(145, 3, 228);
+    text-decoration: underline;
+}
+
+.home {
+    margin: 0%;
+
+}
+
+
+.home_inicial {
+    padding-top: 10%;
+    margin: 0%;
+    width: 100%;
+    height: auto;
+
+}
+
+.servicos {
+    background-color: white;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.encomendas {
+    color: rgb(255, 255, 255);
+    margin-left: 180px;
+    margin-top: 200px;
+    background-color: black;
+}
+
+.tabela {
+    color: rgb(0, 0, 0);
+    width: 1600px;
+    margin-left: 180px;
+    background-color: rgb(255, 255, 255);
+    height: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    border-color: rgb(52, 53, 110);
+    text-align: center;
+
+
+}
+
+.titulos {
+    color: rgb(5, 8, 138);
+
+}
+
+.forms {
+    color: aliceblue;
+    margin: 20 auto;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    text-align: center;
+    background-color: rgb(52, 53, 110) ;
+
+}
+
+.adicionar { 
+    text-align: center;
+
+    
+}
+
+.formulario { 
+    text-align: center;
+    margin-right: 100px;
+
+}
+
+.bt_adicionar { 
+    margin-left: 50px;
+    background-color: rgb(16, 93, 138);
+    margin-top: 10px;
+    color:rgb(255, 255, 255)
+}
+
+.produto {
+    text-align: center;
+    
+}
+
+.texto-vermelho {
+    color: red;
+}
+
+.fundo-vermelho{
+    background-color: red;
+}

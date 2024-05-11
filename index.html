@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>the weeknd</title>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/img/logo.png" alt="logo" class="logo">
+    </header>
+
+    <main class="main">
+        <div class="home">
+            <h1 class="encomendas">ENCOMENDAS</h1>
+
+            <table class="tabela" border="10">
+                <thead>
+                    <tr class="titulos">
+                        <td>Nome</td>
+                        <td>Produto</td>
+                        <td>Quantidade</td>
+                        <td>Valor Unitário</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="cliente">
+                        <td class="nome">Letícia</td>
+                        <td class="produto">Disco Vínil</td>
+                        <td class="quantidade">1</td>
+                        <td class="unitario">320</td>
+                        <td class="total">320</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr class="cliente">
+                        <td class="nome">Leonardo</td>
+                        <td class="produto">Camiseta - Out of time</td>
+                        <td class="quantidade">2</td>
+                        <td class="unitario">120</td>
+                        <td class="total">240</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr class="cliente">
+                        <td class="nome">Pablo</td>
+                        <td class="produto">Caneca - Starboy</td>
+                        <td class="quantidade">5</td>
+                        <td class="unitario">65</td>
+                        <td class="total">325</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr class="cliente">
+                        <td class="nome">Maurício</td>
+                        <td class="produto">Blusa Moletom - Reminder</td>
+                        <td class="quantidade">1</td>
+                        <td class="unitario">380</td>
+                        <td class="total">380</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="forms">
+            <h1 class="adicionar">Adicionar nova encomenda</h1>
+            <form class="formulario">
+                <ul>
+                    <li>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome">
+                    </li>
+                    <li>
+                        <label for="Quantidade">Quantidade:</label>
+                        <input type="text" id="quantidade" name="quantidade">
+                    </li>
+                    <li class="bt_select">
+                        <label for="produto">Produto</label>
+                        <select class="produto" id="produto" name="produto">
+                            <option value="disco">Disco Vínil</option>
+                            <option value="camiseta">Camiseta - Out of time</option>
+                            <option value="caneca">Caneca - Starboy</option>
+                            <option value="blusa">Blusa Moletom - Reminder</option>
+                        </select>
+
+                    </li>
+                    <li>
+                        <label for="valor">R$ Unitário</label>
+                        <input type="text" id="valor" name="valor">
+                    </li>
+                    <li>
+                        <input type="submit" value="Adicionar" class="bt_adicionar">
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/adiciona.js"></script>
+    <script src="js/apagar.js"></script>
+</body>
+
+</html>
